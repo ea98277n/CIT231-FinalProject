@@ -1,0 +1,171 @@
+/* style.css file for project */
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    background-color: #DCDCDC;
+    background-image: url(images/texture.png);
+    font: 400 15px/24px "Open Sans", sans-serif;
+    -webkit-text-size-adjust: none;
+    overflow-x: hidden;
+    color: #222;
+    letter-spacing: -.2px;
+    margin: 0;
+    max-width: 100%;
+}
+
+u, b {
+    color: #E62739;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #E62739;
+}
+
+img {
+    height: 50px;
+}
+
+.inputspace {
+    margin: 0px 20px 0px 20px;
+}
+
+table {
+    margin: auto;
+}
+
+.navigation a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+    z-index: 99999;
+}
+
+.navigation a:hover {
+    color: #E62739;
+    border-bottom: 10px solid #E62739;
+    opacity: 1;
+    z-index: 99999;
+}
+
+h1 {
+    font-size: 450%;
+    color: #222222;
+    text-shadow: 0px 2px 3px #DCDCDC;
+}
+
+h2 {
+    font-size: 225%;
+    margin-top: -20px;
+}
+
+h3 {
+    font-size: 175%;
+    margin-bottom: -5px;
+}
+
+hr {
+    background-color: #E62739;
+    color: #E62739;
+    margin: -15px 0px 25px 0px;
+    opacity: 0.95;
+    height: 10px;
+    border: none;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 50px;
+    opacity: 0.85;
+    color: white;
+    background: black;
+    margin: 0px -10% 0px -10%;
+    font-weight: bold;
+    z-index: 99999;
+}
+
+.clearbar {
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 120%;
+    opacity: 0.4;
+    box-shadow: 0px 0px 20px #000;
+    margin: 0px -10% 0px -10%;
+    border-bottom: 10px solid #FFF !important;
+    z-index: 99999;
+}
+
+.navlink {
+    position: relative;
+    padding: 18px 25px 8px 25px;
+    display: table-cell;
+    opacity: 0.70;
+        z-index: 99999;
+}
+
+.style1 {
+    background-image: url(images/room.jpg);
+    background-position: center;
+}
+
+.style2 {
+    background-image: url(images/volume.jpg);
+    background-position: center;
+}
+
+.style3 {
+    background-image: url(images/amazon.jpg);
+    background-position: 50% 25%;
+}
+
+.style4 {
+    background-image: url(images/controller.jpg);
+    background-position: center top;
+}
+
+#selected {
+    color: #E62739;
+    border-bottom: 10px solid #E62739 !important;
+    opacity: 1;
+}
+
+#selected:hover {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 10px solid #444 !important;
+    opacity: 1;
+}
+
+#header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: static;
+}
+
+#body {
+    text-align: justify;
+    padding: 80px 40% 80px 40%;
+    box-shadow: inset 0px 0px 20px 0px #000;
+    margin: 0px -10% 0px -10%;
+}
+
+#footer {
+    background-color: #000;
+    opacity: 0.85;
+    padding: 45px 0px 40px 0px;
+    margin: 0px -10px -10px -10px;
+    color: white;
+    box-shadow: inset 20px 0px 20px 0px #000;
+}
+
+#title {
+    margin-bottom: -10px;
+}
